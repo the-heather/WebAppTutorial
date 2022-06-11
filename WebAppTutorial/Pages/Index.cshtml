@@ -3,8 +3,9 @@
 @{
     ViewData["Title"] = "Home page";
 }
-
-<div class="text-center">
-    <h1 id="hello_world" class="display-4 green-text" onmouseover="newColor()" onmouseout="oldColor()">Hello World!</h1>
-    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/ElPqn8DdUOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-</div>
+<body onload="do_fade(), do_fade2()">
+        <div class="text-center" id="box">
+            <h1 id="hello">Hello World</h1>
+        </div>
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/ElPqn8DdUOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</body>

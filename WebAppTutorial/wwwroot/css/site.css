@@ -71,6 +71,8 @@ body {
 }
 
 /*Style Hello, World*/
-.green-text {
-    color: darkolivegreen;
+.text-center {
+    font-size: 18pt;
+    font-weight: 700;
+    font-family: 'Lucida Handwriting';
 }
